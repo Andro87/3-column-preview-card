@@ -1,0 +1,22 @@
+.main_wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--VeryLightGray);
+    width: 100%;
+    min-height: 100vh;
+    padding: 50px;
+    @media screen and (max-width: 840px) {
+        padding: 60px 25px;
+        min-height: initial;
+    }
+}
+.container {
+    width: 100%;
+    max-width: 1000px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    @media screen and (max-width: 840px) {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

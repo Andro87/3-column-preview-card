@@ -1,0 +1,24 @@
+.button {
+    outline: none;
+    border: 2px solid transparent;
+    padding: 15px 25px;
+    border-radius: 30px;
+    background-color: var(--VeryLightGray);
+    font-family: "lexend";
+    font-weight: 400;
+    &:hover {
+        background-color: transparent;
+        cursor: pointer;
+        border: 2px solid var(--VeryLightGray);
+        color: var(--VeryLightGray);
+    }
+}
+.orange {
+    color: var(--BrightOrange);
+}
+.blue {
+    color: var(--DarkCyan);
+}
+.green {
+    color: var(--VeryDarkCyan);
+}
